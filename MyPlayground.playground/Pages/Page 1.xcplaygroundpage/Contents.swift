@@ -32,4 +32,10 @@ for book in books {
 print(book)
 }
 
+func greeting(for name: String) -> String {
+    "Hello, " + name + " 😀"
+}
+print(greeting(for: "Mike"))
+// Prints "Hello, Dave!"
+
 //: [Next](@next)
